@@ -50,7 +50,7 @@ client.on('messageCreate', async (message) => {
           description: feedbackContent,
           timestamp: new Date(),
         };
-        const feedbackChannel = client.channels.cache.get(' 1136819849708978199', 'channel ID');  
+        const feedbackChannel = client.channels.cache.get(' channel id');  
         feedbackChannel.send({ embeds: [feedbackEmbed] });
 
         await feedbackMessage.reply('Feedback successfully submitted!');
