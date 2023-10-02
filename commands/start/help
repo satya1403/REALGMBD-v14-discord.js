@@ -33,5 +33,5 @@ client.on('message', (message) => {
 });
 
 // Log in to Discord
-client.login('MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw');
+client.login('token bot');
 
