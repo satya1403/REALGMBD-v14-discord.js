@@ -1,0 +1,37 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const prefix = '/'; // You can change this to your desired bot prefix
+
+const { SlashCommandBuilder } = require('discord.js')
+data: new SlashCommandBuilder
+module.exports = (
+client.setName ('help') 
+.setDescription ('This is an help command')
+)
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}`);
+});
+
+client.on('message', (message) => {
+  // Ignore messages from bots
+  if (message.author.bot) return;
+
+  // Check if the message starts with the bot prefix
+  if (message.content.startsWith(prefix)) {
+    const args = message.content.slice(prefix.length).trim().split(/ +/);
+    const command = args.shift().toLowerCase();
+
+    if (command === 'help') {
+      // Send a help message
+      message.channel.send('This is an bot where you can create games join games host games and events');
+      message.channel.send('The following commands are: /join /create /modes /Ai /gamestop /feedback /menu /restart /stop')
+      message.channel.send('/join means this command will join a game (needs code) /create will create something /modes will give u a menu of modes /ai will make u play with ai /gamestop will stop the game /feedback will give feedbacl /menu is menu /restart will restart the whole game /stop will stop the command/game')
+      message.channel.send('If ur still having trouble then you can say /tutor hope this helps!')
+    }
+    // Add more commands here
+  }
+});
+
+// Log in to Discord
+client.login('MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw');
+

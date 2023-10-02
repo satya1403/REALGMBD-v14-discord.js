@@ -1,0 +1,30 @@
+import('discord.js'); 
+const Discord = require('discord.js')
+const djs = new Discord.Client();
+const prefix = "/" 
+
+module.exports (
+data. new, djs, prefix
+ , client.setName ('tutor')
+ .setDescription ('Tutorial if u still dont understand')
+    
+)
+ // // // // / // //    / 
+ //  const { Client, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+
+// Replace 'YOUR_TOKEN' with your actual bot token
+const token = 'MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw';
+
+client.login(token);
+                  
+client.once('ready', () => {
+    console.log(`Logged in as ${client.user.tag}`);
+  });
+
+  client.on('messageCreate', (message) => {
+    if (message.content.startsWith(`${prefix}tutor`)) {
+      // Send the tutorial message to the same channel
+      message.channel.send('If you dont understand the help command instrcutios first just play the game with friends or ask community because theres no way u dont understand...');
+    }
+  });
