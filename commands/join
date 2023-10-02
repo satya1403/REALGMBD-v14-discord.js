@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 const djs = new Discord.Client();
 const prefix = "/" 
 
-const token = 'MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw';
+const token = 'token';
 client.login(token);
 
 module.exports (
@@ -33,8 +33,7 @@ if (message.content.startsWith(`${commandPrefix}join`)) {
   }
 };
 
-// Replace 'YOUR_TOKEN' with your actual bot token
-botClient.login('MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw');
+client.login(token)
 
 
 
