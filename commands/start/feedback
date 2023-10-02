@@ -69,5 +69,5 @@ client.on('messageCreate', async (message) => {
 });
 
 
-client.login('MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw')
+client.login('Token bot')
 console.log('Sucessfully logged into') + client.user.tag
