@@ -5,9 +5,12 @@ const djs = new Discord.Client();
 const prefix = "/" 
 
 module.exports (
-  client.setName ('contact')
-  .SlashCommandBuilder.setDescription ('Contact us!')
+data, new SlashcommandBuilder
+ , client.setName ('contact')
+ .setDescription ('Contact us!')
 )
 
 intereaction.reply('Use the feedback or goto my github on pcaltna (one with the swat admin role)')
 Discord.DiscordjsError
+// if there's any syntax errors then do what it says
+client.login('token')
