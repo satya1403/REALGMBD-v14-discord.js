@@ -10,7 +10,7 @@ module.exports (
 const { MessageButton, MessageActionRow } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const prefix = '/';
-
+const token = 'BOT_TOKEN'
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
@@ -69,5 +69,5 @@ client.on('messageCreate', async (message) => {
 });
 
 
-client.login('Token bot')
+client.login(token)
 console.log('Sucessfully logged into') + client.user.tag
