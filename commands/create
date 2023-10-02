@@ -1,6 +1,6 @@
 import('discord.js');
 const Discord = new Discord.client(); 
-client.login('MTE1NTY2MzYyNDAxOTM5MDQ3NAGo3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw')
+client.login('token')
 console.log('Logged into') + client.user.tag 
 const disbut = require('discord.js-buttons')(client)
 
@@ -224,7 +224,7 @@ function startGame(selectedMode, players, interaction) {
 
 
 // Replace 'YOUR_TOKEN' with your actual bot token
-botClient.login('MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw');
+botClient.login('token');
 
 console.log('Command sucessfully runned!')
 // Bye this is the end of the code
