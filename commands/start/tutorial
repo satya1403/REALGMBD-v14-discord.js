@@ -14,7 +14,7 @@ data. new, djs, prefix
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 // Replace 'YOUR_TOKEN' with your actual bot token
-const token = 'MTE1NTY2MzYyNDAxOTM5MDQ3NA.Go3dUk.l56yj1nHd9ys2IJrQOVay_ksLqB5Rzbvs7vHIw';
+const token = 'YOUR_TOKEN';
 
 client.login(token);
                   
