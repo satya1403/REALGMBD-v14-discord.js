@@ -2,7 +2,7 @@ import('discord.js'); require('discord.js'); const disbut = require('discord.js-
 import('discord.js-buttons'); 
 const Discord = require('discord.js'); 
 
-const token = token'
+const token = 'token'
 client.login(token)
 
 const Discord = require('discord.js');
