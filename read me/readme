@@ -1,0 +1,90 @@
+# Discord Game Bot
+
+![Bot Logo](bot-logo.png)
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+- [Commands](#commands)
+- [Gameplay](#gameplay)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Welcome to the Discord Game Bot! This bot is designed to bring fun and entertainment to your Discord server through interactive games and activities. Whether you're looking to play trivia, solve puzzles, or engage in multiplayer adventures, our bot has you covered.
+
+## Features
+
+- **Interactive Games**: Engage with your friends and server members in a variety of fun and interactive games.
+- **Customizable**: Configure the bot's settings to suit your server's preferences.
+- **Leaderboards**: Compete for the top spot on leaderboards and show off your gaming skills.
+- **Extensible**: The bot's modular structure allows for the addition of new games and features.
+
+## Getting Started
+
+### Prerequisites
+
+Before setting up the bot, make sure you have the following:
+
+- [Node.js](https://nodejs.org/) (v12 or higher)
+- [Discord Developer Account](https://discord.com/developers/applications)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```sh
+   git clone https://github.com/satya1403/REALGMBD-V14-discord.js.git
+Navigate to the bot's directory:
+
+sh
+Copy code
+cd REALGMBD-V14-discord.js
+Install the required dependencies:
+npm i discord.js
+npm i discord.js-buttons 
+npm init 
+
+
+sh
+Copy code
+npm install
+Configuration
+Create a new Discord Bot application on the Discord Developer Portal.
+
+Generate a Bot Token and copy it.
+
+Create a .env file in the project directory and add the following:
+
+env
+Copy code
+DISCORD_TOKEN=your-bot-token-here
+PREFIX=!
+Customize other configuration options in the config.js file to suit your server's preferences.
+
+Commands
+Here are some of the commands you can use with the bot:
+
+/help: Display a list of available commands.
+/create: Start a new game.
+/leaderboard: View the current leaderboard.
+For a complete list of commands and their descriptions, type !help in your server.
+
+Gameplay
+Trivia: Test your knowledge with trivia questions and compete for the highest score.
+Puzzles: Solve puzzles and riddles as a team or solo player.
+Adventure: Embark on an epic multiplayer adventure with your friends.
+Contributing
+Contributions to the Discord Game Bot are welcome! If you have ideas for new games, features, or improvements, please submit a pull request or open an issue.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+vbnet
+Copy code

@@ -1,0 +1,76 @@
+# 🎮 Discord Bot Game Changelog
+
+All notable changes to the Discord Bot Game will be documented in this file.
+
+## [🚀 Unreleased]
+-NEW MINIGAMES
+- Included mini-games:
+  - Snake catch!: Snake catch allows u to catch other players depending on size.
+  - Putch ball: Putch ball is an game where you fight people with slimey-gooey-balls.
+- NEW COMMANDS 
+ -tutorial
+ -contact
+ -menu
+- Multiplayer games
+
+ 
+### ➕ Added
+
+- New keys to toggle movement 
+  - Buttons to move and now you can never use wasd or click on the image to move.
+
+
+### 🔄 Changed
+
+- Improved the scoring system for existing mini-games.
+- Tweaked the bot's behavior for better user interactions.
+
+### 🐛 Fixed
+
+- Fixed a bug 🐞 where the bot would crash when handling a specific command.
+- Resolved an issue with incorrect game results.
+
+## [🆕 1.0.0] - YYYY-MM-DD
+
+### ➕ Added
+
+- Initial release of the Discord Bot Game.
+- Implemented basic game mechanics.
+- New commands:
+ -tutorial 
+ -
+ -gameplay video
+- Included mini-games:
+  - Snake catch!: Snake catch allows u to catch other players depending on size.
+  - Putch ball: Putch ball is an game where you fight people with slimey-gooey-balls.
+- new buttons
+
+### 🔄 Changed
+
+- Improved the user interface of the bot's responses 🖼️.
+- Enhanced the overall performance and responsiveness.
+
+### 🐛 Fixed
+
+- Fixed various minor bugs and issues.
+
+## [0.1.0] - YYYY-MM-DD
+
+### ➕ Added
+
+- Created the Discord Bot project.
+- Implemented the bot's core functionality.
+- Added basic game commands.
+-  More special Command events!
+### 🔄 Changed
+
+- Made initial adjustments based on user feedback 🗣️.
+
+### 🐛 Fixed
+
+- Fixed critical bugs that caused the bot to malfunction.
+- Fixed bugs that made the bot to not respond to commands 
+- Fixed bugs that made the bot not load proplery
+- FOxed bugs which made the bot not make the full task of the command(s) 
+- Fixed the new way where people were hacking to the bot accounts and saying bad stuff
+
